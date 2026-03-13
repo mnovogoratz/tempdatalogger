@@ -1,0 +1,15 @@
+# WiFi AP settings
+CONFIG_ESP_WIFI_SOFTAP_SUPPORT=y
+
+# Allow larger stack for HTTP server
+CONFIG_ESP_MAIN_TASK_STACK_SIZE=8192
+
+# Deep sleep
+CONFIG_ESP_SLEEP_POWER_DOWN_FLASH=y
+CONFIG_PM_ENABLE=y
+
+# SPI
+CONFIG_SPI_MASTER_IN_IRAM=y
+
+# Reduce log spam in production (change to DEBUG when developing)
+CONFIG_LOG_DEFAULT_LEVEL_INFO=y
