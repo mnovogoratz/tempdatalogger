@@ -3,7 +3,7 @@ idf_component_register(
         "main.c"
         "wifi_ap.c"
         "http_server.c"
-        "spi_max31855.c"
+        "ds18b20.c"
         "datalog.c"
     INCLUDE_DIRS "."
 )
